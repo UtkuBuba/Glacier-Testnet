@@ -92,16 +92,19 @@ Node’un kesintisiz çalışmasını sağlamak için `screen` kullanabilirsiniz
    ```bash
    screen -S glacier-node
    ```
-
-3. **Node’u Screen İçinde Çalıştırma:**
+3. ### dosya izinleri için
+   ```bash
+   chmod +x ./verifier_linux_amd64
+   ```
+4. **Node’u Screen İçinde Çalıştırma:**
    ```bash
    ./verifier_linux_amd64
    ```
 
-4. **Ekran Oturumunu Arka Plana Alma:**
+5. **Ekran Oturumunu Arka Plana Alma:**
    `Ctrl-a` ardından `d` tuşlarına basın.
 
-5. **Screen Oturumuna Geri Dönme:**
+6. **Screen Oturumuna Geri Dönme:**
    ```bash
    screen -r glacier-node
    ```
