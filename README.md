@@ -62,7 +62,7 @@ wget https://glacier-labs.github.io/node-bootstrap/config.yaml
 
 ## **4. Config Dosyasını Düzenleme**
 
-`config.yaml` dosyasını açarak şu şekilde yapılandırın:
+`nano config.yaml` komutu ile yaml dosyasını açarak şu şekilde yapılandırın:
 ```yaml
 Http:
   Listen: "127.0.0.1:10801"
