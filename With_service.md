@@ -6,6 +6,11 @@ Bu rehber, **screen** yerine daha stabil bir yöntem olan **systemd servis dosya
 
 ## **Adımlar**
 
+### dosya izinleri için
+```bash
+chmod +x ./verifier_linux_amd64
+```
+
 ### **1. Servis Dosyasını Oluşturun**
 Servis dosyasını `/etc/systemd/system` dizininde oluşturun:
 ```bash
